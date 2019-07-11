@@ -8,5 +8,10 @@
 
 import Foundation
 
-print("Hello, World!")
+// 703. Kth Largest Element in a Stream
+
+let kth = KthLargest(3, [7, 4, 2, 3, 1, 5, 6])
+print(kth.add(10))
+print(kth.add(11))
+print(kth.add(15))
 
