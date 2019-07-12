@@ -23,26 +23,11 @@ struct MinHeap<Element: Comparable> {
         return data.count == 0
     }
     
-    private func parent(_ idx: Int) -> Int {
-        if idx == 0 {
-            fatalError()
-        }
-        return (idx - 1) / 2
-    }
-    
-    private func leftChild(_ idx: Int) -> Int {
-        return idx * 2
-    }
-    
-    private func rightChild(_ idx: Int) -> Int {
-        return idx * 2 + 1
-    }
-    
     private mutating func siftUp(_ idx: Int) {
         var k = idx
-        while k > 0 && data[parent(k)] > data[k] {
-            data.swapAt(k, parent(k))
-            k = parent(k)
+        while k > 0 && data[k.parent] > data[k] {
+            data.swapAt(k, k.parent)
+            k = k.parent
         }
     }
     
@@ -56,11 +41,11 @@ struct MinHeap<Element: Comparable> {
             return
         }
         
-        while leftChild(idx) < size() {
+        while idx.leftChild < size() {
             
-            var swapIdx = leftChild(idx)
-            if rightChild(idx) < size() && data[leftChild(idx)] > data[rightChild(idx)] {
-                swapIdx = rightChild(idx)
+            var swapIdx = idx.leftChild
+            if idx.rightChild < size() && data[idx.leftChild] > data[idx.rightChild] {
+                swapIdx = idx.rightChild
             }
             
             if data[swapIdx] < data[idx] {
@@ -92,5 +77,9 @@ struct MinHeap<Element: Comparable> {
         data[0] = e
         siftDown(0)
         return getMin()
+    }
+    
+    func description() {
+        print(data)
     }
 }

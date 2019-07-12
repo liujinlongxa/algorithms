@@ -21,13 +21,15 @@ func testMaxHeap() {
 
 func testMinHeap() {
     var data = MinHeap<Int>()
-    data.add(element: 12)
-    data.add(element: 13)
-    data.add(element: 3)
-    data.add(element: 133)
-    assert(data.extractMin() == 3)
-    data.add(element: 4)
-    assert(data.extractMin() == 4)
+    for _ in 0..<10000 {
+        data.add(element: Int.random(in: ClosedRange(uncheckedBounds: (-5000, 5000))))
+    }
+    
+    let pre = data.extractMin()
+    for _ in 0..<data.size() {
+        let current = data.extractMin()
+        assert(pre <= current)
+    }
 }
 
 func test703KthLargestElementInAStream() {
