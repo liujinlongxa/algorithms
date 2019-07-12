@@ -72,14 +72,18 @@ struct MaxHeap<Element: Comparable> {
     }
     
     mutating func extractMax() -> Element {
-        guard let max = data.first else {
-            fatalError()
-        }
-        
+        let max = getMax()
         data.swapAt(0, data.count - 1)
         data.removeLast()
         siftDown(0)
         
+        return max
+    }
+    
+    func getMax() -> Element {
+        guard let max = data.first else {
+            fatalError()
+        }
         return max
     }
 }

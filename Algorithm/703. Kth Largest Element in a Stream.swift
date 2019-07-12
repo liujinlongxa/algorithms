@@ -10,7 +10,7 @@ import Foundation
 
 // MARK: - Solution1, Time Limit Exceeded
 
-class KthLargest {
+class KthLargest1 {
     
     let k: Int
     var nums: [Int]
@@ -26,5 +26,33 @@ class KthLargest {
             nums.removeFirst(nums.count - k)
         }
         return nums.first ?? 0
+    }
+}
+
+// MARK: - Solution2
+
+class KthLargest2 {
+    
+    let k: Int
+    var heap: MinHeap<Int>
+    init(_ k: Int, _ nums: [Int]) {
+        self.k = k
+        self.heap = MinHeap<Int>()
+        for item in nums {
+            self.heap.add(element: item)
+            if self.heap.size() > k {
+                self.heap.extractMin()
+            }
+        }
+    }
+    
+    func add(_ val: Int) -> Int {
+        
+        let min = self.heap.getMin()
+        if min > val {
+            return min
+        } else {
+            return heap.replace(e: val)
+        }
     }
 }

@@ -71,15 +71,26 @@ struct MinHeap<Element: Comparable> {
         }
     }
     
+    @discardableResult
     mutating func extractMin() -> Element {
-        guard let max = data.first else {
-            fatalError()
-        }
-        
+        let min = getMin()
         data.swapAt(0, data.count - 1)
         data.removeLast()
         siftDown(0)
+        return min
+    }
+    
+    func getMin() -> Element {
+        guard let min = data.first else {
+            fatalError()
+        }
         
-        return max
+        return min
+    }
+    
+    mutating func replace(e: Element) -> Element {
+        data[0] = e
+        siftDown(0)
+        return getMin()
     }
 }
