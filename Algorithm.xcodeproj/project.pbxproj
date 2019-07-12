@@ -17,6 +17,7 @@
 		3B0D20BC22D6381D00D8A51C /* 832. Flipping an Image.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B0D20BB22D6381D00D8A51C /* 832. Flipping an Image.swift */; };
 		3BDBEFB922D7753B00BBA733 /* 703. Kth Largest Element in a Stream.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BDBEFB822D7753B00BBA733 /* 703. Kth Largest Element in a Stream.swift */; };
 		3BEDF51222D8D9F600F5FDDC /* MaxHeap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BEDF51122D8D9F600F5FDDC /* MaxHeap.swift */; };
+		3BEDF51422D8EB2300F5FDDC /* MinHeap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BEDF51322D8EB2300F5FDDC /* MinHeap.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -43,6 +44,7 @@
 		3B0D20BB22D6381D00D8A51C /* 832. Flipping an Image.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "832. Flipping an Image.swift"; sourceTree = "<group>"; };
 		3BDBEFB822D7753B00BBA733 /* 703. Kth Largest Element in a Stream.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "703. Kth Largest Element in a Stream.swift"; sourceTree = "<group>"; };
 		3BEDF51122D8D9F600F5FDDC /* MaxHeap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaxHeap.swift; sourceTree = "<group>"; };
+		3BEDF51322D8EB2300F5FDDC /* MinHeap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MinHeap.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,6 +95,7 @@
 			isa = PBXGroup;
 			children = (
 				3BEDF51122D8D9F600F5FDDC /* MaxHeap.swift */,
+				3BEDF51322D8EB2300F5FDDC /* MinHeap.swift */,
 			);
 			path = DataStructure;
 			sourceTree = "<group>";
@@ -155,6 +158,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3B0D20B422D6357800D8A51C /* 20. Valid Parentheses.swift in Sources */,
+				3BEDF51422D8EB2300F5FDDC /* MinHeap.swift in Sources */,
 				3B0D20B622D6374E00D8A51C /* 977. Squares of a Sorted Array.swift in Sources */,
 				3B0D20B022D6345400D8A51C /* 155. Min Stack.swift in Sources */,
 				3B0D20B822D6378300D8A51C /* 1. Two Sum.swift in Sources */,
