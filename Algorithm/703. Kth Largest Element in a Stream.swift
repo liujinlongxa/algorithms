@@ -48,11 +48,15 @@ class KthLargest2 {
     
     func add(_ val: Int) -> Int {
         
-        let min = self.heap.getMin()
-        if min > val {
-            return min
-        } else {
-            return heap.replace(e: val)
+        if self.heap.size() <= 0 {
+            self.heap.add(element: val)
+            return val
         }
+        
+        self.heap.add(element: val)
+        if self.heap.size() > k {
+            self.heap.extractMin()
+        }
+        return self.heap.getMin()
     }
 }

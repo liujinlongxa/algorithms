@@ -41,7 +41,22 @@ func test703KthLargestElementInAStream() {
     assert(kth.add(4) == 8)
 }
 
+func test703KthLargestElementInAStream1() {
+    let kth = KthLargest2(1, [])
+    assert(kth.add(-3) == -3)
+    assert(kth.add(-2) == -2)
+    assert(kth.add(-4) == -2)
+    assert(kth.add(0) == 0)
+    assert(kth.add(4) == 4)
+}
+
+func test703KthLargestElementInAStream2() {
+    let kth = KthLargest2(2, [0])
+    assert(kth.add(-1) == -1)
+    assert(kth.add(1) == 0)
+}
+
 testMaxHeap()
 testMinHeap()
 test703KthLargestElementInAStream()
-
+test703KthLargestElementInAStream1()
