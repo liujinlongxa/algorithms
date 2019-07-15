@@ -15,6 +15,7 @@
 		3B0D20B822D6378300D8A51C /* 1. Two Sum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B0D20B722D6378300D8A51C /* 1. Two Sum.swift */; };
 		3B0D20BA22D637A800D8A51C /* 905. Sort Array By Parity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B0D20B922D637A800D8A51C /* 905. Sort Array By Parity.swift */; };
 		3B0D20BC22D6381D00D8A51C /* 832. Flipping an Image.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B0D20BB22D6381D00D8A51C /* 832. Flipping an Image.swift */; };
+		3B270D4B22DCBB7F0094B483 /* 239. Sliding Window Maximum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B270D4A22DCBB7F0094B483 /* 239. Sliding Window Maximum.swift */; };
 		3BDBEFB922D7753B00BBA733 /* 703. Kth Largest Element in a Stream.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BDBEFB822D7753B00BBA733 /* 703. Kth Largest Element in a Stream.swift */; };
 		3BEDF51222D8D9F600F5FDDC /* MaxHeap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BEDF51122D8D9F600F5FDDC /* MaxHeap.swift */; };
 		3BEDF51422D8EB2300F5FDDC /* MinHeap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BEDF51322D8EB2300F5FDDC /* MinHeap.swift */; };
@@ -43,6 +44,7 @@
 		3B0D20B722D6378300D8A51C /* 1. Two Sum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "1. Two Sum.swift"; sourceTree = "<group>"; };
 		3B0D20B922D637A800D8A51C /* 905. Sort Array By Parity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "905. Sort Array By Parity.swift"; sourceTree = "<group>"; };
 		3B0D20BB22D6381D00D8A51C /* 832. Flipping an Image.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "832. Flipping an Image.swift"; sourceTree = "<group>"; };
+		3B270D4A22DCBB7F0094B483 /* 239. Sliding Window Maximum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "239. Sliding Window Maximum.swift"; sourceTree = "<group>"; };
 		3BDBEFB822D7753B00BBA733 /* 703. Kth Largest Element in a Stream.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "703. Kth Largest Element in a Stream.swift"; sourceTree = "<group>"; };
 		3BEDF51122D8D9F600F5FDDC /* MaxHeap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaxHeap.swift; sourceTree = "<group>"; };
 		3BEDF51322D8EB2300F5FDDC /* MinHeap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MinHeap.swift; sourceTree = "<group>"; };
@@ -90,6 +92,7 @@
 				3B0D20B922D637A800D8A51C /* 905. Sort Array By Parity.swift */,
 				3B0D20BB22D6381D00D8A51C /* 832. Flipping an Image.swift */,
 				3BDBEFB822D7753B00BBA733 /* 703. Kth Largest Element in a Stream.swift */,
+				3B270D4A22DCBB7F0094B483 /* 239. Sliding Window Maximum.swift */,
 			);
 			path = Algorithm;
 			sourceTree = "<group>";
@@ -172,6 +175,7 @@
 				3B0D20BA22D637A800D8A51C /* 905. Sort Array By Parity.swift in Sources */,
 				3B0D20A922D633FD00D8A51C /* main.swift in Sources */,
 				3BEDF51622D93FE400F5FDDC /* Helper.swift in Sources */,
+				3B270D4B22DCBB7F0094B483 /* 239. Sliding Window Maximum.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
