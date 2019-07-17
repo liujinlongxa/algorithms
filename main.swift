@@ -65,9 +65,19 @@ func testMaxSlidingWindow( ) {
     assert(ret == [3,3,2,5])
 }
 
+func testIsAnagram() {
+    assert(isAnagram1("abc", "cba"))
+    assert(isAnagram2("abc", "cba"))
+    assert(isAnagram1("acbbc", "bcabc"))
+    assert(isAnagram2("acbbc", "bcabc"))
+    assert(!isAnagram1("acbbceefs", "bcabcefsf"))
+    assert(!isAnagram2("acbbceefs", "bcabcefsf"))
+}
+
 testMaxHeap()
 testMinHeap()
 test703KthLargestElementInAStream()
 test703KthLargestElementInAStream1()
 test703KthLargestElementInAStream2()
 testMaxSlidingWindow()
+testIsAnagram()
