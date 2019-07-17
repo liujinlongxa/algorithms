@@ -57,12 +57,23 @@ func test703KthLargestElementInAStream2() {
 }
 
 func testMaxSlidingWindow( ) {
-    var ret = maxSlidingWindow([1,3,-1,-3,5,3,6,7], 3)
+    var ret = maxSlidingWindow1([1,3,-1,-3,5,3,6,7], 3)
     assert(ret == [3,3,5,5,6,7])
-    ret = maxSlidingWindow([3,-1,-3,5,3,6,7,8,3,7,5], 3)
+    ret = maxSlidingWindow1([3,-1,-3,5,3,6,7,8,3,7,5], 3)
     assert(ret == [3,5,5,6,7,8,8,8,7])
-    ret = maxSlidingWindow([1,3,1,2,0,5], 3)
+    ret = maxSlidingWindow1([1,3,1,2,0,5], 3)
     assert(ret == [3,3,2,5])
+    
+    ret = maxSlidingWindow2([1,3,-1,-3,5,3,6,7], 3)
+    assert(ret == [3,3,5,5,6,7])
+    ret = maxSlidingWindow2([3,-1,-3,5,3,6,7,8,3,7,5], 3)
+    assert(ret == [3,5,5,6,7,8,8,8,7])
+    ret = maxSlidingWindow2([1,3,1,2,0,5], 3)
+    assert(ret == [3,3,2,5])
+    ret = maxSlidingWindow2([1,-1], 1)
+    assert(ret == [1, -1])
+    ret = maxSlidingWindow2([7,2,4], 2)
+    assert(ret == [7, 4])
 }
 
 func testIsAnagram() {

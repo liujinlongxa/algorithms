@@ -8,7 +8,9 @@
 
 import Foundation
 
-func maxSlidingWindow(_ nums: [Int], _ k: Int) -> [Int] {
+// MARK: - Solution1
+
+func maxSlidingWindow1(_ nums: [Int], _ k: Int) -> [Int] {
     let len = nums.count
     
     guard len > 0 else {
@@ -50,4 +52,34 @@ func maxSlidingWindow(_ nums: [Int], _ k: Int) -> [Int] {
     }
     
     return result
+}
+
+// MARK: - Solution2
+
+func maxSlidingWindow2(_ nums: [Int], _ k: Int) -> [Int] {
+    guard nums.count > 0, k > 0 else {
+        return []
+    }
+    var ret = [Int].init(repeating: 0, count: nums.count - k + 1)
+    var maxIdx = 0
+    for i in 0..<nums.count {
+        if nums[i] > nums[maxIdx] {
+            maxIdx = i
+        }
+        if i - maxIdx >= k {
+            maxIdx = i - k + 1
+            if i - k + 2 <= i {
+                for j in (i - k + 2)...i {
+                    if nums[j] > nums[maxIdx] {
+                        maxIdx = j
+                    }
+                }
+            }
+        }
+        if i - k + 1 >= 0 {
+            ret[i - k + 1] = nums[maxIdx]
+        }
+    }
+    
+    return ret
 }
