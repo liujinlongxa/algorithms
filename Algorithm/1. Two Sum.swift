@@ -8,7 +8,9 @@
 
 import Foundation
 
-func twoSum(_ nums: [Int], _ target: Int) -> [Int] {
+// MARK: - Solution1
+
+func twoSum1(_ nums: [Int], _ target: Int) -> [Int] {
     let len = nums.count
     for i in 0..<len {
         for j in (i + 1)..<len {
@@ -17,5 +19,22 @@ func twoSum(_ nums: [Int], _ target: Int) -> [Int] {
             }
         }
     }
+    return []
+}
+
+// MARK: - Solution2
+func twoSum2(_ nums: [Int], _ target: Int) -> [Int] {
+    var map: [Int: Int] = [:]
+    for i in 0..<nums.count {
+        map[nums[i]] = i
+    }
+
+    for i in 0..<nums.count {
+        let right = target - nums[i]
+        if let rightIdx = map[right], map.keys.contains(right), rightIdx != i {
+            return [i, rightIdx]
+        }
+    }
+
     return []
 }

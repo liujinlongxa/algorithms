@@ -8,6 +8,13 @@
 
 import Foundation
 
+func testTwoSum() {
+    assert(twoSum1([2, 7, 11, 15], 9) == [0, 1])
+    assert(twoSum2([2, 7, 11, 15], 9) == [0, 1])
+    assert(twoSum2([3, 2, 4], 6) == [1, 2])
+    assert(twoSum2([2, 5, 5, 11], 10) == [1, 2])
+}
+
 func testMaxHeap() {
     var data = MaxHeap<Int>()
     data.add(element: 12)
@@ -85,10 +92,11 @@ func testIsAnagram() {
     assert(!isAnagram2("acbbceefs", "bcabcefsf"))
 }
 
-testMaxHeap()
-testMinHeap()
-test703KthLargestElementInAStream()
-test703KthLargestElementInAStream1()
-test703KthLargestElementInAStream2()
-testMaxSlidingWindow()
-testIsAnagram()
+testTwoSum()
+//testMaxHeap()
+//testMinHeap()
+//test703KthLargestElementInAStream()
+//test703KthLargestElementInAStream1()
+//test703KthLargestElementInAStream2()
+//testMaxSlidingWindow()
+//testIsAnagram()
