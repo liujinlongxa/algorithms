@@ -31,7 +31,7 @@ func twoSum2(_ nums: [Int], _ target: Int) -> [Int] {
 
     for i in 0..<nums.count {
         let right = target - nums[i]
-        if let rightIdx = map[right], map.keys.contains(right), rightIdx != i {
+        if let rightIdx = map[right], rightIdx != i {
             return [i, rightIdx]
         }
     }

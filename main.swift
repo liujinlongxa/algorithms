@@ -92,7 +92,12 @@ func testIsAnagram() {
     assert(!isAnagram2("acbbceefs", "bcabcefsf"))
 }
 
-testTwoSum()
+func test3Sum() {
+//    assert(threeSum([-1, 0, 1, 2, -1, -4]) == [[-1, 0, 1], [-1, 2, -1]])
+    assert(threeSum([-2, 0, 1, 1, 2]) == [[-2, 0, 2],[-2, 1, 1]])
+}
+
+//testTwoSum()
 //testMaxHeap()
 //testMinHeap()
 //test703KthLargestElementInAStream()
@@ -100,3 +105,4 @@ testTwoSum()
 //test703KthLargestElementInAStream2()
 //testMaxSlidingWindow()
 //testIsAnagram()
+test3Sum()
