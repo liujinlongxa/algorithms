@@ -40,3 +40,23 @@ func inOrder(_ root: TreeNode?) -> [Int] {
     
     return inOrder(root.left) + [root.val] + inOrder(root.right)
 }
+
+func isValidBST1(_ root: TreeNode?) -> Bool {
+    return check(root, max: Int.max, min: Int.min)
+}
+
+func check(_ root: TreeNode?, max: Int?, min: Int?) -> Bool {
+    guard let root = root else {
+        return true
+    }
+    
+    guard let min = min, let max = max else {
+        return false
+    }
+    
+    guard max > root.val && min < root.val else {
+        return false
+    }
+    
+    return check(root.left, max: root.val, min: min) && check(root.right, max: max, min: root.val)
+}
