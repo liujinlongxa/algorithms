@@ -18,6 +18,7 @@
 		3B270D4B22DCBB7F0094B483 /* 239. Sliding Window Maximum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B270D4A22DCBB7F0094B483 /* 239. Sliding Window Maximum.swift */; };
 		3B275A9622DF72E100BA781E /* 242. Valid Anagram.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B275A9522DF72E100BA781E /* 242. Valid Anagram.swift */; };
 		3B70D80322EDB5680026B99E /* 50. Pow(x, n).swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B70D80222EDB5680026B99E /* 50. Pow(x, n).swift */; };
+		3B70D80522EDBAE30026B99E /* 169. Majority Element.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B70D80422EDBAE30026B99E /* 169. Majority Element.swift */; };
 		3BDB0A1922E7454800F49C96 /* 98. Validate Binary Search Tree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BDB0A1822E7454800F49C96 /* 98. Validate Binary Search Tree.swift */; };
 		3BDBEFB922D7753B00BBA733 /* 703. Kth Largest Element in a Stream.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BDBEFB822D7753B00BBA733 /* 703. Kth Largest Element in a Stream.swift */; };
 		3BE790DA22E3080700C36CB3 /* 15. 3Sum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BE790D922E3080700C36CB3 /* 15. 3Sum.swift */; };
@@ -51,6 +52,7 @@
 		3B270D4A22DCBB7F0094B483 /* 239. Sliding Window Maximum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "239. Sliding Window Maximum.swift"; sourceTree = "<group>"; };
 		3B275A9522DF72E100BA781E /* 242. Valid Anagram.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "242. Valid Anagram.swift"; sourceTree = "<group>"; };
 		3B70D80222EDB5680026B99E /* 50. Pow(x, n).swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "50. Pow(x, n).swift"; sourceTree = "<group>"; };
+		3B70D80422EDBAE30026B99E /* 169. Majority Element.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "169. Majority Element.swift"; sourceTree = "<group>"; };
 		3BDB0A1822E7454800F49C96 /* 98. Validate Binary Search Tree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "98. Validate Binary Search Tree.swift"; sourceTree = "<group>"; };
 		3BDBEFB822D7753B00BBA733 /* 703. Kth Largest Element in a Stream.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "703. Kth Largest Element in a Stream.swift"; sourceTree = "<group>"; };
 		3BE790D922E3080700C36CB3 /* 15. 3Sum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "15. 3Sum.swift"; sourceTree = "<group>"; };
@@ -105,6 +107,7 @@
 				3BE790D922E3080700C36CB3 /* 15. 3Sum.swift */,
 				3BDB0A1822E7454800F49C96 /* 98. Validate Binary Search Tree.swift */,
 				3B70D80222EDB5680026B99E /* 50. Pow(x, n).swift */,
+				3B70D80422EDBAE30026B99E /* 169. Majority Element.swift */,
 			);
 			path = Algorithm;
 			sourceTree = "<group>";
@@ -190,6 +193,7 @@
 				3B0D20BA22D637A800D8A51C /* 905. Sort Array By Parity.swift in Sources */,
 				3B0D20A922D633FD00D8A51C /* main.swift in Sources */,
 				3BEDF51622D93FE400F5FDDC /* Helper.swift in Sources */,
+				3B70D80522EDBAE30026B99E /* 169. Majority Element.swift in Sources */,
 				3B270D4B22DCBB7F0094B483 /* 239. Sliding Window Maximum.swift in Sources */,
 				3BE790DA22E3080700C36CB3 /* 15. 3Sum.swift in Sources */,
 			);
