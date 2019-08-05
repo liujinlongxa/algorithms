@@ -18,6 +18,8 @@
 		3B270D4B22DCBB7F0094B483 /* 239. Sliding Window Maximum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B270D4A22DCBB7F0094B483 /* 239. Sliding Window Maximum.swift */; };
 		3B275A9622DF72E100BA781E /* 242. Valid Anagram.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B275A9522DF72E100BA781E /* 242. Valid Anagram.swift */; };
 		3B29300A22EF42C30076B282 /* 122. Best Time to Buy and Sell Stock II.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B29300922EF42C30076B282 /* 122. Best Time to Buy and Sell Stock II.swift */; };
+		3B32B72822F87CC000C67A5B /* 104. Maximum Depth of Binary Tree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B32B72722F87CC000C67A5B /* 104. Maximum Depth of Binary Tree.swift */; };
+		3B32B72A22F87D6700C67A5B /* 111. Minimum Depth of Binary Tree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B32B72922F87D6700C67A5B /* 111. Minimum Depth of Binary Tree.swift */; };
 		3B70D80322EDB5680026B99E /* 50. Pow(x, n).swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B70D80222EDB5680026B99E /* 50. Pow(x, n).swift */; };
 		3B70D80522EDBAE30026B99E /* 169. Majority Element.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B70D80422EDBAE30026B99E /* 169. Majority Element.swift */; };
 		3BCAACD922F3370D003BCB08 /* 102. Binary Tree Level Order Traversal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BCAACD822F3370D003BCB08 /* 102. Binary Tree Level Order Traversal.swift */; };
@@ -54,6 +56,8 @@
 		3B270D4A22DCBB7F0094B483 /* 239. Sliding Window Maximum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "239. Sliding Window Maximum.swift"; sourceTree = "<group>"; };
 		3B275A9522DF72E100BA781E /* 242. Valid Anagram.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "242. Valid Anagram.swift"; sourceTree = "<group>"; };
 		3B29300922EF42C30076B282 /* 122. Best Time to Buy and Sell Stock II.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "122. Best Time to Buy and Sell Stock II.swift"; sourceTree = "<group>"; };
+		3B32B72722F87CC000C67A5B /* 104. Maximum Depth of Binary Tree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "104. Maximum Depth of Binary Tree.swift"; sourceTree = "<group>"; };
+		3B32B72922F87D6700C67A5B /* 111. Minimum Depth of Binary Tree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "111. Minimum Depth of Binary Tree.swift"; sourceTree = "<group>"; };
 		3B70D80222EDB5680026B99E /* 50. Pow(x, n).swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "50. Pow(x, n).swift"; sourceTree = "<group>"; };
 		3B70D80422EDBAE30026B99E /* 169. Majority Element.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "169. Majority Element.swift"; sourceTree = "<group>"; };
 		3BCAACD822F3370D003BCB08 /* 102. Binary Tree Level Order Traversal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "102. Binary Tree Level Order Traversal.swift"; sourceTree = "<group>"; };
@@ -114,6 +118,8 @@
 				3B70D80422EDBAE30026B99E /* 169. Majority Element.swift */,
 				3B29300922EF42C30076B282 /* 122. Best Time to Buy and Sell Stock II.swift */,
 				3BCAACD822F3370D003BCB08 /* 102. Binary Tree Level Order Traversal.swift */,
+				3B32B72722F87CC000C67A5B /* 104. Maximum Depth of Binary Tree.swift */,
+				3B32B72922F87D6700C67A5B /* 111. Minimum Depth of Binary Tree.swift */,
 			);
 			path = Algorithm;
 			sourceTree = "<group>";
@@ -184,6 +190,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3B32B72A22F87D6700C67A5B /* 111. Minimum Depth of Binary Tree.swift in Sources */,
 				3B0D20B422D6357800D8A51C /* 20. Valid Parentheses.swift in Sources */,
 				3BCAACD922F3370D003BCB08 /* 102. Binary Tree Level Order Traversal.swift in Sources */,
 				3BEDF51422D8EB2300F5FDDC /* MinHeap.swift in Sources */,
@@ -194,6 +201,7 @@
 				3B0D20B822D6378300D8A51C /* 1. Two Sum.swift in Sources */,
 				3B0D20B222D6349800D8A51C /* 11. Container With Most Water.swift in Sources */,
 				3BDBEFB922D7753B00BBA733 /* 703. Kth Largest Element in a Stream.swift in Sources */,
+				3B32B72822F87CC000C67A5B /* 104. Maximum Depth of Binary Tree.swift in Sources */,
 				3BEDF51222D8D9F600F5FDDC /* MaxHeap.swift in Sources */,
 				3B0D20BC22D6381D00D8A51C /* 832. Flipping an Image.swift in Sources */,
 				3B29300A22EF42C30076B282 /* 122. Best Time to Buy and Sell Stock II.swift in Sources */,
