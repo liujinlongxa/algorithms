@@ -97,6 +97,11 @@ func test3Sum() {
     assert(threeSum([-2, 0, 1, 1, 2]) == [[-2, 0, 2],[-2, 1, 1]])
 }
 
+func testGenerateParenthesis() {
+    let ret = generateParenthesis(3)
+    assert(ret == ["((()))", "(()())", "(())()", "()(())", "()()()"])
+}
+
 //testTwoSum()
 //testMaxHeap()
 //testMinHeap()
@@ -105,4 +110,5 @@ func test3Sum() {
 //test703KthLargestElementInAStream2()
 //testMaxSlidingWindow()
 //testIsAnagram()
-test3Sum()
+//test3Sum()
+testGenerateParenthesis()
