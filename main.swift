@@ -102,6 +102,12 @@ func testGenerateParenthesis() {
     assert(ret == ["((()))", "(()())", "(())()", "()(())", "()()()"])
 }
 
+func testSolveNQueens() {
+    let ret = solveNQueens(5)
+    print(ret)
+    
+}
+
 //testTwoSum()
 //testMaxHeap()
 //testMinHeap()
@@ -111,4 +117,5 @@ func testGenerateParenthesis() {
 //testMaxSlidingWindow()
 //testIsAnagram()
 //test3Sum()
-testGenerateParenthesis()
+//testGenerateParenthesis()
+testSolveNQueens()
