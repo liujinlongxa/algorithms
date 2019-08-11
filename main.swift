@@ -123,6 +123,13 @@ func testValidSudoku() {
     assert(isValidSudoku(param.map({$0.map({Character($0)})})) == false)
 }
 
+func testSudokuSolver() {
+    let param = [["5","3",".",".","7",".",".",".","."],["6",".",".","1","9","5",".",".","."],[".","9","8",".",".",".",".","6","."],["8",".",".",".","6",".",".",".","3"],["4",".",".","8",".","3",".",".","1"],["7",".",".",".","2",".",".",".","6"],[".","6",".",".",".",".","2","8","."],[".",".",".","4","1","9",".",".","5"],[".",".",".",".","8",".",".","7","9"]];
+    var chars = param.map({$0.map({Character($0)})})
+    solveSudoku(&chars)
+    print(chars)
+}
+
 //testTwoSum()
 //testMaxHeap()
 //testMinHeap()
@@ -134,4 +141,5 @@ func testValidSudoku() {
 //test3Sum()
 //testGenerateParenthesis()
 //testSolveNQueens()
-testValidSudoku()
+//testValidSudoku()
+testSudokuSolver()
