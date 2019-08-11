@@ -25,6 +25,7 @@
 		3B70D80522EDBAE30026B99E /* 169. Majority Element.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B70D80422EDBAE30026B99E /* 169. Majority Element.swift */; };
 		3BB8150F22FFEB1800678D3F /* 36. Valid Sudoku.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BB8150E22FFEB1800678D3F /* 36. Valid Sudoku.swift */; };
 		3BB8151122FFF18800678D3F /* 37. Sudoku Solver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BB8151022FFF18800678D3F /* 37. Sudoku Solver.swift */; };
+		3BB8151323005C8500678D3F /* 69. Sqrt(x).swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BB8151223005C8500678D3F /* 69. Sqrt(x).swift */; };
 		3BCAACD922F3370D003BCB08 /* 102. Binary Tree Level Order Traversal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BCAACD822F3370D003BCB08 /* 102. Binary Tree Level Order Traversal.swift */; };
 		3BDB0A1922E7454800F49C96 /* 98. Validate Binary Search Tree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BDB0A1822E7454800F49C96 /* 98. Validate Binary Search Tree.swift */; };
 		3BDBEFB922D7753B00BBA733 /* 703. Kth Largest Element in a Stream.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BDBEFB822D7753B00BBA733 /* 703. Kth Largest Element in a Stream.swift */; };
@@ -67,6 +68,7 @@
 		3B70D80422EDBAE30026B99E /* 169. Majority Element.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "169. Majority Element.swift"; sourceTree = "<group>"; };
 		3BB8150E22FFEB1800678D3F /* 36. Valid Sudoku.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "36. Valid Sudoku.swift"; sourceTree = "<group>"; };
 		3BB8151022FFF18800678D3F /* 37. Sudoku Solver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "37. Sudoku Solver.swift"; sourceTree = "<group>"; };
+		3BB8151223005C8500678D3F /* 69. Sqrt(x).swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "69. Sqrt(x).swift"; sourceTree = "<group>"; };
 		3BCAACD822F3370D003BCB08 /* 102. Binary Tree Level Order Traversal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "102. Binary Tree Level Order Traversal.swift"; sourceTree = "<group>"; };
 		3BDB0A1822E7454800F49C96 /* 98. Validate Binary Search Tree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "98. Validate Binary Search Tree.swift"; sourceTree = "<group>"; };
 		3BDBEFB822D7753B00BBA733 /* 703. Kth Largest Element in a Stream.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "703. Kth Largest Element in a Stream.swift"; sourceTree = "<group>"; };
@@ -132,6 +134,7 @@
 				3BFC954022FC733900C0DC0F /* 51. N-Queens.swift */,
 				3BB8150E22FFEB1800678D3F /* 36. Valid Sudoku.swift */,
 				3BB8151022FFF18800678D3F /* 37. Sudoku Solver.swift */,
+				3BB8151223005C8500678D3F /* 69. Sqrt(x).swift */,
 			);
 			path = Algorithm;
 			sourceTree = "<group>";
@@ -202,6 +205,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3BB8151323005C8500678D3F /* 69. Sqrt(x).swift in Sources */,
 				3B32B72A22F87D6700C67A5B /* 111. Minimum Depth of Binary Tree.swift in Sources */,
 				3B0D20B422D6357800D8A51C /* 20. Valid Parentheses.swift in Sources */,
 				3BCAACD922F3370D003BCB08 /* 102. Binary Tree Level Order Traversal.swift in Sources */,
