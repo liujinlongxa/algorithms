@@ -108,7 +108,6 @@ func testSolveNQueens() {
 }
 
 func testValidSudoku() {
-//    let param = [["5","3",".",".","7",".",".",".","."],["6",".",".","1","9","5",".",".","."],[".","9","8",".",".",".",".","6","."],["8",".",".",".","6",".",".",".","3"],["4",".",".","8",".","3",".",".","1"],["7",".",".",".","2",".",".",".","6"],[".","6",".",".",".",".","2","8","."],[".",".",".","4","1","9",".",".","5"],[".",".",".",".","8",".",".","7","9"]];
     let param = [
         ["8","3",".",".","7",".",".",".","."],
         ["6",".",".","1","9","5",".",".","."],
@@ -130,6 +129,14 @@ func testSudokuSolver() {
     print(chars)
 }
 
+func testTrie() {
+    let trie = Trie()
+    trie.insert("apple")
+    assert(trie.search("apple"))
+    assert(trie.search("app") == false)
+    assert(trie.startsWith("app") == true)
+}
+
 //testTwoSum()
 //testMaxHeap()
 //testMinHeap()
@@ -142,4 +149,5 @@ func testSudokuSolver() {
 //testGenerateParenthesis()
 //testSolveNQueens()
 //testValidSudoku()
-testSudokuSolver()
+//testSudokuSolver()
+testTrie()
