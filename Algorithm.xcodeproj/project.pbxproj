@@ -21,6 +21,7 @@
 		3B32B72822F87CC000C67A5B /* 104. Maximum Depth of Binary Tree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B32B72722F87CC000C67A5B /* 104. Maximum Depth of Binary Tree.swift */; };
 		3B32B72A22F87D6700C67A5B /* 111. Minimum Depth of Binary Tree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B32B72922F87D6700C67A5B /* 111. Minimum Depth of Binary Tree.swift */; };
 		3B32B72C22F8856F00C67A5B /* 22. Generate Parentheses.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B32B72B22F8856F00C67A5B /* 22. Generate Parentheses.swift */; };
+		3B36D02A23059BF4008DF6BA /* 212. Word Search II.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B36D02923059BF4008DF6BA /* 212. Word Search II.swift */; };
 		3B70D80322EDB5680026B99E /* 50. Pow(x, n).swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B70D80222EDB5680026B99E /* 50. Pow(x, n).swift */; };
 		3B70D80522EDBAE30026B99E /* 169. Majority Element.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B70D80422EDBAE30026B99E /* 169. Majority Element.swift */; };
 		3B9A853F2302FBF200D9F866 /* 208. Implement Trie (Prefix Tree).swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B9A853E2302FBF200D9F866 /* 208. Implement Trie (Prefix Tree).swift */; };
@@ -65,6 +66,7 @@
 		3B32B72722F87CC000C67A5B /* 104. Maximum Depth of Binary Tree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "104. Maximum Depth of Binary Tree.swift"; sourceTree = "<group>"; };
 		3B32B72922F87D6700C67A5B /* 111. Minimum Depth of Binary Tree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "111. Minimum Depth of Binary Tree.swift"; sourceTree = "<group>"; };
 		3B32B72B22F8856F00C67A5B /* 22. Generate Parentheses.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "22. Generate Parentheses.swift"; sourceTree = "<group>"; };
+		3B36D02923059BF4008DF6BA /* 212. Word Search II.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "212. Word Search II.swift"; sourceTree = "<group>"; };
 		3B70D80222EDB5680026B99E /* 50. Pow(x, n).swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "50. Pow(x, n).swift"; sourceTree = "<group>"; };
 		3B70D80422EDBAE30026B99E /* 169. Majority Element.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "169. Majority Element.swift"; sourceTree = "<group>"; };
 		3B9A853E2302FBF200D9F866 /* 208. Implement Trie (Prefix Tree).swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "208. Implement Trie (Prefix Tree).swift"; sourceTree = "<group>"; };
@@ -138,6 +140,7 @@
 				3BB8151022FFF18800678D3F /* 37. Sudoku Solver.swift */,
 				3BB8151223005C8500678D3F /* 69. Sqrt(x).swift */,
 				3B9A853E2302FBF200D9F866 /* 208. Implement Trie (Prefix Tree).swift */,
+				3B36D02923059BF4008DF6BA /* 212. Word Search II.swift */,
 			);
 			path = Algorithm;
 			sourceTree = "<group>";
@@ -231,6 +234,7 @@
 				3B70D80322EDB5680026B99E /* 50. Pow(x, n).swift in Sources */,
 				3B0D20BA22D637A800D8A51C /* 905. Sort Array By Parity.swift in Sources */,
 				3B0D20A922D633FD00D8A51C /* main.swift in Sources */,
+				3B36D02A23059BF4008DF6BA /* 212. Word Search II.swift in Sources */,
 				3BEDF51622D93FE400F5FDDC /* Helper.swift in Sources */,
 				3B70D80522EDBAE30026B99E /* 169. Majority Element.swift in Sources */,
 				3BFC954122FC733900C0DC0F /* 51. N-Queens.swift in Sources */,

@@ -93,7 +93,6 @@ func testIsAnagram() {
 }
 
 func test3Sum() {
-//    assert(threeSum([-1, 0, 1, 2, -1, -4]) == [[-1, 0, 1], [-1, 2, -1]])
     assert(threeSum([-2, 0, 1, 1, 2]) == [[-2, 0, 2],[-2, 1, 1]])
 }
 
@@ -137,6 +136,23 @@ func testTrie() {
     assert(trie.startsWith("app") == true)
 }
 
+func testWordSearch() {
+    let board = [
+        ["o","a","a","n"],
+        ["e","t","a","e"],
+        ["i","h","k","r"],
+        ["i","f","l","v"]
+    ]
+    let words = ["oath","pea","eat","rain"]
+//    let board = [
+//        ["a", "a"],
+//    ]
+//    let words = ["aaa"]
+
+    let chars = board.map({$0.map({Character($0)})})
+    print(findWords(chars, words))
+}
+
 //testTwoSum()
 //testMaxHeap()
 //testMinHeap()
@@ -150,4 +166,5 @@ func testTrie() {
 //testSolveNQueens()
 //testValidSudoku()
 //testSudokuSolver()
-testTrie()
+//testTrie()
+testWordSearch()
