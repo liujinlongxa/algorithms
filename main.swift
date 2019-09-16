@@ -153,6 +153,11 @@ func testWordSearch() {
     print(findWords(chars, words))
 }
 
+func testLIS() {
+    let count = lengthOfLIS([10,9,2,5,3,7,101,18])
+    assert(count == 4)
+}
+
 //testTwoSum()
 //testMaxHeap()
 //testMinHeap()
@@ -167,4 +172,5 @@ func testWordSearch() {
 //testValidSudoku()
 //testSudokuSolver()
 //testTrie()
-testWordSearch()
+//testWordSearch()
+testLIS()
