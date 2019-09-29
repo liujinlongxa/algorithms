@@ -158,6 +158,11 @@ func testLIS() {
     assert(count == 4)
 }
 
+func testCoinChange() {
+    let ret = coinChange([1], 0)
+    assert(ret == 3)
+}
+
 //testTwoSum()
 //testMaxHeap()
 //testMinHeap()
@@ -173,4 +178,5 @@ func testLIS() {
 //testSudokuSolver()
 //testTrie()
 //testWordSearch()
-testLIS()
+//testLIS()
+testCoinChange()

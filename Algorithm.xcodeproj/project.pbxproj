@@ -24,6 +24,7 @@
 		3B32B72A22F87D6700C67A5B /* 111. Minimum Depth of Binary Tree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B32B72922F87D6700C67A5B /* 111. Minimum Depth of Binary Tree.swift */; };
 		3B32B72C22F8856F00C67A5B /* 22. Generate Parentheses.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B32B72B22F8856F00C67A5B /* 22. Generate Parentheses.swift */; };
 		3B36D02A23059BF4008DF6BA /* 212. Word Search II.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B36D02923059BF4008DF6BA /* 212. Word Search II.swift */; };
+		3B51C0AD23404D3F002CD2CF /* 322. Coin Change.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B51C0AC23404D3F002CD2CF /* 322. Coin Change.swift */; };
 		3B70D80322EDB5680026B99E /* 50. Pow(x, n).swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B70D80222EDB5680026B99E /* 50. Pow(x, n).swift */; };
 		3B70D80522EDBAE30026B99E /* 169. Majority Element.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B70D80422EDBAE30026B99E /* 169. Majority Element.swift */; };
 		3B982A782309A14F002012BF /* 231. Power of Two.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B982A772309A14F002012BF /* 231. Power of Two.swift */; };
@@ -75,6 +76,7 @@
 		3B32B72922F87D6700C67A5B /* 111. Minimum Depth of Binary Tree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "111. Minimum Depth of Binary Tree.swift"; sourceTree = "<group>"; };
 		3B32B72B22F8856F00C67A5B /* 22. Generate Parentheses.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "22. Generate Parentheses.swift"; sourceTree = "<group>"; };
 		3B36D02923059BF4008DF6BA /* 212. Word Search II.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "212. Word Search II.swift"; sourceTree = "<group>"; };
+		3B51C0AC23404D3F002CD2CF /* 322. Coin Change.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "322. Coin Change.swift"; sourceTree = "<group>"; };
 		3B70D80222EDB5680026B99E /* 50. Pow(x, n).swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "50. Pow(x, n).swift"; sourceTree = "<group>"; };
 		3B70D80422EDBAE30026B99E /* 169. Majority Element.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "169. Majority Element.swift"; sourceTree = "<group>"; };
 		3B982A772309A14F002012BF /* 231. Power of Two.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "231. Power of Two.swift"; sourceTree = "<group>"; };
@@ -159,6 +161,7 @@
 				3BE1E94023214ACA00D894D4 /* 152. Maximum Product Subarray.swift */,
 				3B0BC3262328774000098433 /* 300. Longest Increasing Subsequence.swift */,
 				3B2DD7232332807500C90361 /* 121. Best Time to Buy and Sell Stock.swift */,
+				3B51C0AC23404D3F002CD2CF /* 322. Coin Change.swift */,
 			);
 			path = Algorithm;
 			sourceTree = "<group>";
@@ -250,6 +253,7 @@
 				3B32B72822F87CC000C67A5B /* 104. Maximum Depth of Binary Tree.swift in Sources */,
 				3BE1E94123214ACA00D894D4 /* 152. Maximum Product Subarray.swift in Sources */,
 				3B32B72C22F8856F00C67A5B /* 22. Generate Parentheses.swift in Sources */,
+				3B51C0AD23404D3F002CD2CF /* 322. Coin Change.swift in Sources */,
 				3BEDF51222D8D9F600F5FDDC /* MaxHeap.swift in Sources */,
 				3B0D20BC22D6381D00D8A51C /* 832. Flipping an Image.swift in Sources */,
 				3BB8151122FFF18800678D3F /* 37. Sudoku Solver.swift in Sources */,
