@@ -163,6 +163,21 @@ func testCoinChange() {
     assert(ret == 3)
 }
 
+func testP3() {
+    let arr = [
+        [1, 2, 8, 9],
+        [2, 3, 9, 12],
+        [4, 7, 10, 13],
+        [6, 8, 11, 15]
+    ]
+    assert(jzOfferP3(array: arr, num: 3) == true)
+    assert(jzOfferP3(array: arr, num: 100) == false)
+    assert(jzOfferP3(array: arr, num: 15) == true)
+    assert(jzOfferP3(array: arr, num: 6) == true)
+    assert(jzOfferP3(array: arr, num: 0) == false)
+    assert(jzOfferP3(array: arr, num: 16) == false)
+}
+
 //testTwoSum()
 //testMaxHeap()
 //testMinHeap()
@@ -179,4 +194,5 @@ func testCoinChange() {
 //testTrie()
 //testWordSearch()
 //testLIS()
-testCoinChange()
+//testCoinChange()
+testP3()

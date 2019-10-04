@@ -32,6 +32,7 @@
 		3BB8150F22FFEB1800678D3F /* 36. Valid Sudoku.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BB8150E22FFEB1800678D3F /* 36. Valid Sudoku.swift */; };
 		3BB8151122FFF18800678D3F /* 37. Sudoku Solver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BB8151022FFF18800678D3F /* 37. Sudoku Solver.swift */; };
 		3BB8151323005C8500678D3F /* 69. Sqrt(x).swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BB8151223005C8500678D3F /* 69. Sqrt(x).swift */; };
+		3BC0312023472AD40024BCB7 /* Problem#3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BC0311F23472AD40024BCB7 /* Problem#3.swift */; };
 		3BCAACD922F3370D003BCB08 /* 102. Binary Tree Level Order Traversal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BCAACD822F3370D003BCB08 /* 102. Binary Tree Level Order Traversal.swift */; };
 		3BDB0A1922E7454800F49C96 /* 98. Validate Binary Search Tree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BDB0A1822E7454800F49C96 /* 98. Validate Binary Search Tree.swift */; };
 		3BDBEFB922D7753B00BBA733 /* 703. Kth Largest Element in a Stream.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BDBEFB822D7753B00BBA733 /* 703. Kth Largest Element in a Stream.swift */; };
@@ -84,6 +85,7 @@
 		3BB8150E22FFEB1800678D3F /* 36. Valid Sudoku.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "36. Valid Sudoku.swift"; sourceTree = "<group>"; };
 		3BB8151022FFF18800678D3F /* 37. Sudoku Solver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "37. Sudoku Solver.swift"; sourceTree = "<group>"; };
 		3BB8151223005C8500678D3F /* 69. Sqrt(x).swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "69. Sqrt(x).swift"; sourceTree = "<group>"; };
+		3BC0311F23472AD40024BCB7 /* Problem#3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Problem#3.swift"; sourceTree = "<group>"; };
 		3BCAACD822F3370D003BCB08 /* 102. Binary Tree Level Order Traversal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "102. Binary Tree Level Order Traversal.swift"; sourceTree = "<group>"; };
 		3BDB0A1822E7454800F49C96 /* 98. Validate Binary Search Tree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "98. Validate Binary Search Tree.swift"; sourceTree = "<group>"; };
 		3BDBEFB822D7753B00BBA733 /* 703. Kth Largest Element in a Stream.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "703. Kth Largest Element in a Stream.swift"; sourceTree = "<group>"; };
@@ -111,6 +113,7 @@
 		3B0D209C22D633FD00D8A51C = {
 			isa = PBXGroup;
 			children = (
+				3BC0311E23471DED0024BCB7 /* 剑指Offer */,
 				3B0D20A822D633FD00D8A51C /* main.swift */,
 				3BEDF51522D93FE400F5FDDC /* Helper.swift */,
 				3BDBEFBA22D77B4C00BBA733 /* DataStructure */,
@@ -164,6 +167,14 @@
 				3B51C0AC23404D3F002CD2CF /* 322. Coin Change.swift */,
 			);
 			path = Algorithm;
+			sourceTree = "<group>";
+		};
+		3BC0311E23471DED0024BCB7 /* 剑指Offer */ = {
+			isa = PBXGroup;
+			children = (
+				3BC0311F23472AD40024BCB7 /* Problem#3.swift */,
+			);
+			path = "剑指Offer";
 			sourceTree = "<group>";
 		};
 		3BDBEFBA22D77B4C00BBA733 /* DataStructure */ = {
@@ -245,6 +256,7 @@
 				3B2DD7242332807500C90361 /* 121. Best Time to Buy and Sell Stock.swift in Sources */,
 				3BDB0A1922E7454800F49C96 /* 98. Validate Binary Search Tree.swift in Sources */,
 				3B275A9622DF72E100BA781E /* 242. Valid Anagram.swift in Sources */,
+				3BC0312023472AD40024BCB7 /* Problem#3.swift in Sources */,
 				3B0D20B822D6378300D8A51C /* 1. Two Sum.swift in Sources */,
 				3B0D20B222D6349800D8A51C /* 11. Container With Most Water.swift in Sources */,
 				3B9A853F2302FBF200D9F866 /* 208. Implement Trie (Prefix Tree).swift in Sources */,
