@@ -177,6 +177,17 @@ func testP5() {
     jzOfferP5(list: [1, 2, 3, 4])
 }
 
+func testP6() {
+    guard let bst = jzOfferP6(preOrder: [1, 2, 4, 7, 3, 5, 6, 8], inOrder: [4, 7, 2, 1, 5, 3, 8, 6]) else {
+        assert(false)
+    }
+    
+    bst.inOrder()
+    bst.preOrder()
+    bst.postOrder()
+    bst.levelOrder()
+}
+
 //testTwoSum()
 //testMaxHeap()
 //testMinHeap()
@@ -195,4 +206,5 @@ func testP5() {
 //testLIS()
 //testCoinChange()
 //testP3()
-testP5()
+//testP5()
+testP6()
