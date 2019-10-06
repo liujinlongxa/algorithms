@@ -188,6 +188,19 @@ func testP6() {
     bst.levelOrder()
 }
 
+func testP7() {
+    let q = StackQueue<Int>()
+    q.enqueue(e: 1)
+    q.enqueue(e: 3)
+    q.enqueue(e: 5)
+    q.enqueue(e: 7)
+    q.enqueue(e: 9)
+    assert(try! q.dequeue() == 1)
+    assert(try! q.dequeue() == 3)
+    assert(try! q.getFront() == 5)
+    assert(try! q.dequeue() == 5)
+}
+
 //testTwoSum()
 //testMaxHeap()
 //testMinHeap()
@@ -207,4 +220,5 @@ func testP6() {
 //testCoinChange()
 //testP3()
 //testP5()
-testP6()
+//testP6()
+testP7()
