@@ -144,11 +144,6 @@ func testWordSearch() {
         ["i","f","l","v"]
     ]
     let words = ["oath","pea","eat","rain"]
-//    let board = [
-//        ["a", "a"],
-//    ]
-//    let words = ["aaa"]
-
     let chars = board.map({$0.map({Character($0)})})
     print(findWords(chars, words))
 }
@@ -178,6 +173,10 @@ func testP3() {
     assert(jzOfferP3(array: arr, num: 16) == false)
 }
 
+func testP5() {
+    jzOfferP5(list: [1, 2, 3, 4])
+}
+
 //testTwoSum()
 //testMaxHeap()
 //testMinHeap()
@@ -195,4 +194,5 @@ func testP3() {
 //testWordSearch()
 //testLIS()
 //testCoinChange()
-testP3()
+//testP3()
+testP5()
