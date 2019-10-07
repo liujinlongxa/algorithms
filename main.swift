@@ -201,6 +201,11 @@ func testP7() {
     assert(try! q.dequeue() == 5)
 }
 
+func testQS() {
+    let arr = [3, 2, 4, 5, 1]
+    assert(quickSort(nums: arr) == [1, 2, 3, 4, 5])
+}
+
 //testTwoSum()
 //testMaxHeap()
 //testMinHeap()
@@ -221,4 +226,5 @@ func testP7() {
 //testP3()
 //testP5()
 //testP6()
-testP7()
+//testP7()
+testQS()
