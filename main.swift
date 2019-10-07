@@ -206,6 +206,11 @@ func testQS() {
     assert(quickSort(nums: arr) == [1, 2, 3, 4, 5])
 }
 
+func testP8() {
+    assert(jzOfferP8(nums: [3, 4, 5, 1, 2]) == 1)
+    assert(jzOfferP8(nums: [2, 1]) == 1)
+}
+
 //testTwoSum()
 //testMaxHeap()
 //testMinHeap()
@@ -227,4 +232,5 @@ func testQS() {
 //testP5()
 //testP6()
 //testP7()
-testQS()
+//testQS()
+testP8()
