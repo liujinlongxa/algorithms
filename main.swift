@@ -216,6 +216,18 @@ func testP9() {
     assert(jzOfferP9_2(num: 6) == 8)
 }
 
+func testP10() {
+    assert(jzOfferP10(num: 8) == 1)
+    assert(jzOfferP10(num: 9) == 2)
+    assert(jzOfferP10(num: 0) == 0)
+    assert(jzOfferP10(num: 1) == 1)
+    
+    assert(jzOfferP10_2(num: 8) == 1)
+    assert(jzOfferP10_2(num: 9) == 2)
+    assert(jzOfferP10_2(num: 0) == 0)
+    assert(jzOfferP10_2(num: 1) == 1)
+}
+
 //testTwoSum()
 //testMaxHeap()
 //testMinHeap()
@@ -239,4 +251,5 @@ func testP9() {
 //testP7()
 //testQS()
 //testP8()
-testP9()
+//testP9()
+testP10()
