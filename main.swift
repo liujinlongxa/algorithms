@@ -211,6 +211,11 @@ func testP8() {
     assert(jzOfferP8(nums: [2, 1]) == 1)
 }
 
+func testP9() {
+    assert(jzOfferP9(num: 7) == 13)
+    assert(jzOfferP9_2(num: 6) == 8)
+}
+
 //testTwoSum()
 //testMaxHeap()
 //testMinHeap()
@@ -233,4 +238,5 @@ func testP8() {
 //testP6()
 //testP7()
 //testQS()
-testP8()
+//testP8()
+testP9()
