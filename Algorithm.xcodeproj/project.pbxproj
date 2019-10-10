@@ -19,6 +19,7 @@
 		3B270D4B22DCBB7F0094B483 /* 239. Sliding Window Maximum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B270D4A22DCBB7F0094B483 /* 239. Sliding Window Maximum.swift */; };
 		3B275A9622DF72E100BA781E /* 242. Valid Anagram.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B275A9522DF72E100BA781E /* 242. Valid Anagram.swift */; };
 		3B29300A22EF42C30076B282 /* 122. Best Time to Buy and Sell Stock II.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B29300922EF42C30076B282 /* 122. Best Time to Buy and Sell Stock II.swift */; };
+		3B2B7344234F75DB00FE2604 /* Problem#12.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B2B7343234F75DB00FE2604 /* Problem#12.swift */; };
 		3B2DD7242332807500C90361 /* 121. Best Time to Buy and Sell Stock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B2DD7232332807500C90361 /* 121. Best Time to Buy and Sell Stock.swift */; };
 		3B32B72822F87CC000C67A5B /* 104. Maximum Depth of Binary Tree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B32B72722F87CC000C67A5B /* 104. Maximum Depth of Binary Tree.swift */; };
 		3B32B72A22F87D6700C67A5B /* 111. Minimum Depth of Binary Tree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B32B72922F87D6700C67A5B /* 111. Minimum Depth of Binary Tree.swift */; };
@@ -87,6 +88,7 @@
 		3B270D4A22DCBB7F0094B483 /* 239. Sliding Window Maximum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "239. Sliding Window Maximum.swift"; sourceTree = "<group>"; };
 		3B275A9522DF72E100BA781E /* 242. Valid Anagram.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "242. Valid Anagram.swift"; sourceTree = "<group>"; };
 		3B29300922EF42C30076B282 /* 122. Best Time to Buy and Sell Stock II.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "122. Best Time to Buy and Sell Stock II.swift"; sourceTree = "<group>"; };
+		3B2B7343234F75DB00FE2604 /* Problem#12.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Problem#12.swift"; sourceTree = "<group>"; };
 		3B2DD7232332807500C90361 /* 121. Best Time to Buy and Sell Stock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "121. Best Time to Buy and Sell Stock.swift"; sourceTree = "<group>"; };
 		3B32B72722F87CC000C67A5B /* 104. Maximum Depth of Binary Tree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "104. Maximum Depth of Binary Tree.swift"; sourceTree = "<group>"; };
 		3B32B72922F87D6700C67A5B /* 111. Minimum Depth of Binary Tree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "111. Minimum Depth of Binary Tree.swift"; sourceTree = "<group>"; };
@@ -219,6 +221,7 @@
 				3BB79DCB234B306400BC6972 /* Problem#9.swift */,
 				3BB79DCD234B331A00BC6972 /* Problem#10.swift */,
 				3B428915234CDB90009E3370 /* Problem#11.swift */,
+				3B2B7343234F75DB00FE2604 /* Problem#12.swift */,
 			);
 			path = "剑指Offer";
 			sourceTree = "<group>";
@@ -349,6 +352,7 @@
 				3BC031372349EE5D0024BCB7 /* ArrayQueue.swift in Sources */,
 				3B2DD7242332807500C90361 /* 121. Best Time to Buy and Sell Stock.swift in Sources */,
 				3BDB0A1922E7454800F49C96 /* 98. Validate Binary Search Tree.swift in Sources */,
+				3B2B7344234F75DB00FE2604 /* Problem#12.swift in Sources */,
 				3B275A9622DF72E100BA781E /* 242. Valid Anagram.swift in Sources */,
 				3BC0312023472AD40024BCB7 /* Problem#3.swift in Sources */,
 				3BC031272349DA080024BCB7 /* ArrayStack.swift in Sources */,

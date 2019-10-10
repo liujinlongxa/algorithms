@@ -233,6 +233,10 @@ func test11() {
     assert(jzOfferP11(base: 2, exponent: 5) == 32)
 }
 
+func test12() {
+    jzOfferP12(n: 3)
+}
+
 //testTwoSum()
 //testMaxHeap()
 //testMinHeap()
@@ -258,4 +262,5 @@ func test11() {
 //testP8()
 //testP9()
 //testP10()
-test11()
+//test11()
+test12()
