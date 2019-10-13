@@ -20,7 +20,16 @@ extension LinkedList {
             return
         }
         
-        node.e = node.next?.e
-        node.next = node.next?.next
+        if node.next == nil {
+            var temp = dummyHead?.next
+            while temp?.next !== node {
+                temp = temp?.next
+            }
+            temp?.next = nil
+        } else {
+            node.e = node.next?.e
+            node.next = node.next?.next
+        }
+    
     }
 }
