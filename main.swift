@@ -237,6 +237,10 @@ func test12() {
     jzOfferP12(n: 3)
 }
 
+func test14() {
+    assert(jzOfferP14(nums: [1, 2, 3, 4, 5, 6, 7]) == [1, 7, 3, 5, 4, 6, 2])
+}
+
 //testTwoSum()
 //testMaxHeap()
 //testMinHeap()
@@ -263,4 +267,5 @@ func test12() {
 //testP9()
 //testP10()
 //test11()
-test12()
+//test12()
+test14()

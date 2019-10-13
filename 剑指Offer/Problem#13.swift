@@ -8,6 +8,7 @@
 
 import Foundation
 
+/// 在O(1)的时间内删除链表节点
 extension LinkedList {
     func remove(node: LinkedList.Node) {
         
