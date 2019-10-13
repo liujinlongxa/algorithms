@@ -43,7 +43,7 @@ class LinkedList<E: Equatable> {
         }
     }
     
-    private var dummyHead: Node?
+    var dummyHead: Node?
     private var size: Int
     
     init() {
