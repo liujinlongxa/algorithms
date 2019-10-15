@@ -248,6 +248,12 @@ func test15() {
     assert(list.kthToTail(k: 100) == nil)
 }
 
+func test16() {
+    let list = LinkedList<Int>.init(arrayLiteral: 1, 2, 3, 4, 5, 6)
+    _ = list.myReversed()
+    print(list)
+}
+
 //testTwoSum()
 //testMaxHeap()
 //testMinHeap()
@@ -276,4 +282,5 @@ func test15() {
 //test11()
 //test12()
 //test14()
-test15()
+//test15()
+test16()
