@@ -241,6 +241,13 @@ func test14() {
     assert(jzOfferP14(nums: [1, 2, 3, 4, 5, 6, 7]) == [1, 7, 3, 5, 4, 6, 2])
 }
 
+func test15() {
+    let list = LinkedList<Int>.init(arrayLiteral: 1, 2, 3, 4, 5, 6)
+    assert(list.kthToTail(k: 3)! == 4)
+    assert(list.kthToTail(k: 5)! == 2)
+    assert(list.kthToTail(k: 100) == nil)
+}
+
 //testTwoSum()
 //testMaxHeap()
 //testMinHeap()
@@ -268,4 +275,5 @@ func test14() {
 //testP10()
 //test11()
 //test12()
-test14()
+//test14()
+test15()
