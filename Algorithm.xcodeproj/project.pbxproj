@@ -29,6 +29,7 @@
 		3B36D02A23059BF4008DF6BA /* 212. Word Search II.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B36D02923059BF4008DF6BA /* 212. Word Search II.swift */; };
 		3B428916234CDB90009E3370 /* Problem#11.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B428915234CDB90009E3370 /* Problem#11.swift */; };
 		3B51A99D235CA47900727B84 /* Problem#17.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B51A99C235CA47900727B84 /* Problem#17.swift */; };
+		3B51A99F235CADA700727B84 /* Problem#18.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B51A99E235CADA700727B84 /* Problem#18.swift */; };
 		3B51C0AD23404D3F002CD2CF /* 322. Coin Change.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B51C0AC23404D3F002CD2CF /* 322. Coin Change.swift */; };
 		3B70D80322EDB5680026B99E /* 50. Pow(x, n).swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B70D80222EDB5680026B99E /* 50. Pow(x, n).swift */; };
 		3B70D80522EDBAE30026B99E /* 169. Majority Element.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B70D80422EDBAE30026B99E /* 169. Majority Element.swift */; };
@@ -103,6 +104,7 @@
 		3B36D02923059BF4008DF6BA /* 212. Word Search II.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "212. Word Search II.swift"; sourceTree = "<group>"; };
 		3B428915234CDB90009E3370 /* Problem#11.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Problem#11.swift"; sourceTree = "<group>"; };
 		3B51A99C235CA47900727B84 /* Problem#17.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Problem#17.swift"; sourceTree = "<group>"; };
+		3B51A99E235CADA700727B84 /* Problem#18.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Problem#18.swift"; sourceTree = "<group>"; };
 		3B51C0AC23404D3F002CD2CF /* 322. Coin Change.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "322. Coin Change.swift"; sourceTree = "<group>"; };
 		3B70D80222EDB5680026B99E /* 50. Pow(x, n).swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "50. Pow(x, n).swift"; sourceTree = "<group>"; };
 		3B70D80422EDBAE30026B99E /* 169. Majority Element.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "169. Majority Element.swift"; sourceTree = "<group>"; };
@@ -245,6 +247,7 @@
 				3B1E5433235618FE007A5B6C /* Problem#15.swift */,
 				3B1E543523561E3B007A5B6C /* Problem#16.swift */,
 				3B51A99C235CA47900727B84 /* Problem#17.swift */,
+				3B51A99E235CADA700727B84 /* Problem#18.swift */,
 			);
 			path = "剑指Offer";
 			sourceTree = "<group>";
@@ -385,6 +388,7 @@
 				3B9A853F2302FBF200D9F866 /* 208. Implement Trie (Prefix Tree).swift in Sources */,
 				3BFACA94231425DD0074CE89 /* 70. Climbing Stairs.swift in Sources */,
 				3BDBEFB922D7753B00BBA733 /* 703. Kth Largest Element in a Stream.swift in Sources */,
+				3B51A99F235CADA700727B84 /* Problem#18.swift in Sources */,
 				3B32B72822F87CC000C67A5B /* 104. Maximum Depth of Binary Tree.swift in Sources */,
 				3BB4111123535EFA009F2A29 /* Problem#13.swift in Sources */,
 				3BE1E94123214ACA00D894D4 /* 152. Maximum Product Subarray.swift in Sources */,

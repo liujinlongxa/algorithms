@@ -260,6 +260,18 @@ func test17() {
     print(list1.merge(list2))
 }
 
+func test18() {
+    let tree1 = BST<Int>()
+    tree1.add(e: 1)
+    tree1.add(e: 2)
+    tree1.add(e: 3)
+    tree1.add(e: 4)
+    let tree2 = BST<Int>()
+    tree2.add(e: 1)
+    tree2.add(e: 2)
+    assert(jzOfferP18(bst1: tree1, bst2: tree2))
+}
+
 //testTwoSum()
 //testMaxHeap()
 //testMinHeap()
@@ -290,4 +302,5 @@ func test17() {
 //test14()
 //test15()
 //test16()
-test17()
+//test17()
+test18()
