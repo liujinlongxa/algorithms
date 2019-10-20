@@ -254,6 +254,12 @@ func test16() {
     print(list)
 }
 
+func test17() {
+    let list1 = LinkedList<Int>.init(arrayLiteral: 1, 3, 6, 7)
+    let list2 = LinkedList<Int>.init(arrayLiteral: 2, 4, 6, 8)
+    print(list1.merge(list2))
+}
+
 //testTwoSum()
 //testMaxHeap()
 //testMinHeap()
@@ -283,4 +289,5 @@ func test16() {
 //test12()
 //test14()
 //test15()
-test16()
+//test16()
+test17()

@@ -12,7 +12,7 @@ enum LinkedListError: Error {
     case indexOutOfRange
 }
 
-class LinkedList<E: Equatable> {
+class LinkedList<E: Comparable> {
     class Node {
         public var e: E?;
         public var next: Node?;

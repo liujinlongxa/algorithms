@@ -28,6 +28,7 @@
 		3B32B72C22F8856F00C67A5B /* 22. Generate Parentheses.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B32B72B22F8856F00C67A5B /* 22. Generate Parentheses.swift */; };
 		3B36D02A23059BF4008DF6BA /* 212. Word Search II.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B36D02923059BF4008DF6BA /* 212. Word Search II.swift */; };
 		3B428916234CDB90009E3370 /* Problem#11.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B428915234CDB90009E3370 /* Problem#11.swift */; };
+		3B51A99D235CA47900727B84 /* Problem#17.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B51A99C235CA47900727B84 /* Problem#17.swift */; };
 		3B51C0AD23404D3F002CD2CF /* 322. Coin Change.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B51C0AC23404D3F002CD2CF /* 322. Coin Change.swift */; };
 		3B70D80322EDB5680026B99E /* 50. Pow(x, n).swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B70D80222EDB5680026B99E /* 50. Pow(x, n).swift */; };
 		3B70D80522EDBAE30026B99E /* 169. Majority Element.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B70D80422EDBAE30026B99E /* 169. Majority Element.swift */; };
@@ -101,6 +102,7 @@
 		3B32B72B22F8856F00C67A5B /* 22. Generate Parentheses.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "22. Generate Parentheses.swift"; sourceTree = "<group>"; };
 		3B36D02923059BF4008DF6BA /* 212. Word Search II.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "212. Word Search II.swift"; sourceTree = "<group>"; };
 		3B428915234CDB90009E3370 /* Problem#11.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Problem#11.swift"; sourceTree = "<group>"; };
+		3B51A99C235CA47900727B84 /* Problem#17.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Problem#17.swift"; sourceTree = "<group>"; };
 		3B51C0AC23404D3F002CD2CF /* 322. Coin Change.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "322. Coin Change.swift"; sourceTree = "<group>"; };
 		3B70D80222EDB5680026B99E /* 50. Pow(x, n).swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "50. Pow(x, n).swift"; sourceTree = "<group>"; };
 		3B70D80422EDBAE30026B99E /* 169. Majority Element.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "169. Majority Element.swift"; sourceTree = "<group>"; };
@@ -242,6 +244,7 @@
 				3B7C080D2353670B00808027 /* Problem#14.swift */,
 				3B1E5433235618FE007A5B6C /* Problem#15.swift */,
 				3B1E543523561E3B007A5B6C /* Problem#16.swift */,
+				3B51A99C235CA47900727B84 /* Problem#17.swift */,
 			);
 			path = "剑指Offer";
 			sourceTree = "<group>";
@@ -404,6 +407,7 @@
 				3B70D80522EDBAE30026B99E /* 169. Majority Element.swift in Sources */,
 				3BFC954122FC733900C0DC0F /* 51. N-Queens.swift in Sources */,
 				3BC031312349E3460024BCB7 /* Problem#6.swift in Sources */,
+				3B51A99D235CA47900727B84 /* Problem#17.swift in Sources */,
 				3B0BC3272328774000098433 /* 300. Longest Increasing Subsequence.swift in Sources */,
 				3B270D4B22DCBB7F0094B483 /* 239. Sliding Window Maximum.swift in Sources */,
 				3BC031382349EE5D0024BCB7 /* Queue.swift in Sources */,

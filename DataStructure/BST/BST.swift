@@ -13,7 +13,9 @@ enum BSTError: Error {
 }
 
 class BST<E: Comparable> {
-    class Node: CustomStringConvertible & Equatable {
+    class Node: CustomStringConvertible & Comparable {
+        
+        
         var e: E
         var left: Node?
         var right: Node?
@@ -27,6 +29,10 @@ class BST<E: Comparable> {
         
         public static func == (lhs: Node, rhs: Node) -> Bool {
             return lhs.e == rhs.e
+        }
+        
+        public static func < (lhs: Node, rhs: Node) -> Bool {
+            return lhs.e < rhs.e
         }
         
     }
