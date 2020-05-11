@@ -272,6 +272,10 @@ func test18() {
     assert(jzOfferP18(bst1: tree1, bst2: tree2))
 }
 
+func test19() {
+    print(findRepeatNumber([2, 3, 1, 0, 2, 5, 3]))
+}
+
 //testTwoSum()
 //testMaxHeap()
 //testMinHeap()
@@ -303,4 +307,5 @@ func test18() {
 //test15()
 //test16()
 //test17()
-test18()
+//test18()
+test19()
