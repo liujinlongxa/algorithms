@@ -12,7 +12,7 @@ func replaceSpace(_ s: String) -> String {
     let chars = Array(s)
     var newChars = Array<Character>(repeating: "0", count: chars.count * 3)
     var size = 0
-    for (idx, c) in chars.enumerated() {
+    for c in chars {
         if c == " " {
             newChars[size] = "%"
             newChars[size + 1] = "%"

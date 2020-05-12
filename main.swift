@@ -276,6 +276,9 @@ func test19() {
     print(findRepeatNumber([2, 3, 1, 0, 2, 5, 3]))
 }
 
+func test20() {
+    buildTree([1, 2, 3], [1, 2, 3])
+}
 //testTwoSum()
 //testMaxHeap()
 //testMinHeap()
@@ -308,4 +311,5 @@ func test19() {
 //test16()
 //test17()
 //test18()
-test19()
+//test19()
+test20()

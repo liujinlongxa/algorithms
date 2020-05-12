@@ -40,6 +40,7 @@
 		3BAC2C5F246A06DD009C2A73 /* Problem04.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BAC2C5E246A06DD009C2A73 /* Problem04.swift */; };
 		3BAC2C61246A0941009C2A73 /* Problem05.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BAC2C60246A0941009C2A73 /* Problem05.swift */; };
 		3BAC2C63246A0CF8009C2A73 /* Problem06.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BAC2C62246A0CF8009C2A73 /* Problem06.swift */; };
+		3BAC2C65246A1092009C2A73 /* Problem07.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BAC2C64246A1092009C2A73 /* Problem07.swift */; };
 		3BB4111123535EFA009F2A29 /* Problem#13.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BB4111023535EFA009F2A29 /* Problem#13.swift */; };
 		3BB4111623535FA2009F2A29 /* LinkedList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BB4111523535FA2009F2A29 /* LinkedList.swift */; };
 		3BB79DC8234B24E200BC6972 /* QuickSort.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BB79DC7234B24E200BC6972 /* QuickSort.swift */; };
@@ -119,6 +120,7 @@
 		3BAC2C5E246A06DD009C2A73 /* Problem04.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Problem04.swift; sourceTree = "<group>"; };
 		3BAC2C60246A0941009C2A73 /* Problem05.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Problem05.swift; sourceTree = "<group>"; };
 		3BAC2C62246A0CF8009C2A73 /* Problem06.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Problem06.swift; sourceTree = "<group>"; };
+		3BAC2C64246A1092009C2A73 /* Problem07.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Problem07.swift; sourceTree = "<group>"; };
 		3BB4111023535EFA009F2A29 /* Problem#13.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Problem#13.swift"; sourceTree = "<group>"; };
 		3BB4111523535FA2009F2A29 /* LinkedList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LinkedList.swift; sourceTree = "<group>"; };
 		3BB79DC7234B24E200BC6972 /* QuickSort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuickSort.swift; sourceTree = "<group>"; };
@@ -230,6 +232,7 @@
 				3BAC2C5E246A06DD009C2A73 /* Problem04.swift */,
 				3BAC2C60246A0941009C2A73 /* Problem05.swift */,
 				3BAC2C62246A0CF8009C2A73 /* Problem06.swift */,
+				3BAC2C64246A1092009C2A73 /* Problem07.swift */,
 			);
 			path = New;
 			sourceTree = "<group>";
@@ -411,6 +414,7 @@
 				3BFACA94231425DD0074CE89 /* 70. Climbing Stairs.swift in Sources */,
 				3BDBEFB922D7753B00BBA733 /* 703. Kth Largest Element in a Stream.swift in Sources */,
 				3B51A99F235CADA700727B84 /* Problem#18.swift in Sources */,
+				3BAC2C65246A1092009C2A73 /* Problem07.swift in Sources */,
 				3B32B72822F87CC000C67A5B /* 104. Maximum Depth of Binary Tree.swift in Sources */,
 				3BB4111123535EFA009F2A29 /* Problem#13.swift in Sources */,
 				3BAC2C63246A0CF8009C2A73 /* Problem06.swift in Sources */,
