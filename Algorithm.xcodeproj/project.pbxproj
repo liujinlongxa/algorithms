@@ -31,6 +31,7 @@
 		3B3B8E05246CCCEA00A0A459 /* Sort.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B3B8E04246CCCEA00A0A459 /* Sort.swift */; };
 		3B3B8E08246D195600A0A459 /* Problem10.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B3B8E07246D195600A0A459 /* Problem10.swift */; };
 		3B3B8E0A246D2CC100A0A459 /* Problem24.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B3B8E09246D2CC100A0A459 /* Problem24.swift */; };
+		3B3B8E0C246D2F3F00A0A459 /* Problem32.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B3B8E0B246D2F3F00A0A459 /* Problem32.swift */; };
 		3B428916234CDB90009E3370 /* Problem#11.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B428915234CDB90009E3370 /* Problem#11.swift */; };
 		3B51A99D235CA47900727B84 /* Problem#17.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B51A99C235CA47900727B84 /* Problem#17.swift */; };
 		3B51A99F235CADA700727B84 /* Problem#18.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B51A99E235CADA700727B84 /* Problem#18.swift */; };
@@ -114,6 +115,7 @@
 		3B3B8E04246CCCEA00A0A459 /* Sort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sort.swift; sourceTree = "<group>"; };
 		3B3B8E07246D195600A0A459 /* Problem10.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Problem10.swift; sourceTree = "<group>"; };
 		3B3B8E09246D2CC100A0A459 /* Problem24.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Problem24.swift; sourceTree = "<group>"; };
+		3B3B8E0B246D2F3F00A0A459 /* Problem32.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Problem32.swift; sourceTree = "<group>"; };
 		3B428915234CDB90009E3370 /* Problem#11.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Problem#11.swift"; sourceTree = "<group>"; };
 		3B51A99C235CA47900727B84 /* Problem#17.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Problem#17.swift"; sourceTree = "<group>"; };
 		3B51A99E235CADA700727B84 /* Problem#18.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Problem#18.swift"; sourceTree = "<group>"; };
@@ -242,6 +244,7 @@
 				3BAC2C64246A1092009C2A73 /* Problem07.swift */,
 				3B3B8E07246D195600A0A459 /* Problem10.swift */,
 				3B3B8E09246D2CC100A0A459 /* Problem24.swift */,
+				3B3B8E0B246D2F3F00A0A459 /* Problem32.swift */,
 			);
 			path = New;
 			sourceTree = "<group>";
@@ -405,6 +408,7 @@
 				3B1E5434235618FE007A5B6C /* Problem#15.swift in Sources */,
 				3BCAACD922F3370D003BCB08 /* 102. Binary Tree Level Order Traversal.swift in Sources */,
 				3BB79DCC234B306400BC6972 /* Problem#9.swift in Sources */,
+				3B3B8E0C246D2F3F00A0A459 /* Problem32.swift in Sources */,
 				3BC0312F2349E33B0024BCB7 /* BST.swift in Sources */,
 				3BC031292349DA200024BCB7 /* Problem#5.swift in Sources */,
 				3B982A782309A14F002012BF /* 231. Power of Two.swift in Sources */,
