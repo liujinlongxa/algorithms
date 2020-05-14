@@ -30,6 +30,7 @@
 		3B36D02A23059BF4008DF6BA /* 212. Word Search II.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B36D02923059BF4008DF6BA /* 212. Word Search II.swift */; };
 		3B3B8E05246CCCEA00A0A459 /* Sort.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B3B8E04246CCCEA00A0A459 /* Sort.swift */; };
 		3B3B8E08246D195600A0A459 /* Problem10.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B3B8E07246D195600A0A459 /* Problem10.swift */; };
+		3B3B8E0A246D2CC100A0A459 /* Problem24.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B3B8E09246D2CC100A0A459 /* Problem24.swift */; };
 		3B428916234CDB90009E3370 /* Problem#11.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B428915234CDB90009E3370 /* Problem#11.swift */; };
 		3B51A99D235CA47900727B84 /* Problem#17.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B51A99C235CA47900727B84 /* Problem#17.swift */; };
 		3B51A99F235CADA700727B84 /* Problem#18.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B51A99E235CADA700727B84 /* Problem#18.swift */; };
@@ -112,6 +113,7 @@
 		3B36D02923059BF4008DF6BA /* 212. Word Search II.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "212. Word Search II.swift"; sourceTree = "<group>"; };
 		3B3B8E04246CCCEA00A0A459 /* Sort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sort.swift; sourceTree = "<group>"; };
 		3B3B8E07246D195600A0A459 /* Problem10.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Problem10.swift; sourceTree = "<group>"; };
+		3B3B8E09246D2CC100A0A459 /* Problem24.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Problem24.swift; sourceTree = "<group>"; };
 		3B428915234CDB90009E3370 /* Problem#11.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Problem#11.swift"; sourceTree = "<group>"; };
 		3B51A99C235CA47900727B84 /* Problem#17.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Problem#17.swift"; sourceTree = "<group>"; };
 		3B51A99E235CADA700727B84 /* Problem#18.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Problem#18.swift"; sourceTree = "<group>"; };
@@ -239,6 +241,7 @@
 				3BAC2C62246A0CF8009C2A73 /* Problem06.swift */,
 				3BAC2C64246A1092009C2A73 /* Problem07.swift */,
 				3B3B8E07246D195600A0A459 /* Problem10.swift */,
+				3B3B8E09246D2CC100A0A459 /* Problem24.swift */,
 			);
 			path = New;
 			sourceTree = "<group>";
@@ -406,6 +409,7 @@
 				3BC031292349DA200024BCB7 /* Problem#5.swift in Sources */,
 				3B982A782309A14F002012BF /* 231. Power of Two.swift in Sources */,
 				3BDF18BD231EB3FB00E25D13 /* 120. Triangle.swift in Sources */,
+				3B3B8E0A246D2CC100A0A459 /* Problem24.swift in Sources */,
 				3BEDF51422D8EB2300F5FDDC /* MinHeap.swift in Sources */,
 				3BC0312C2349DA870024BCB7 /* Array.swift in Sources */,
 				3BB8150F22FFEB1800678D3F /* 36. Valid Sudoku.swift in Sources */,
