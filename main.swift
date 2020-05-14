@@ -277,7 +277,11 @@ func test19() {
 }
 
 func test20() {
-    buildTree([1, 2, 3], [1, 2, 3])
+    _ = buildTree([1, 2, 3], [1, 2, 3])
+}
+
+func test21() {
+    Sort.test()
 }
 //testTwoSum()
 //testMaxHeap()
@@ -312,4 +316,5 @@ func test20() {
 //test17()
 //test18()
 //test19()
-test20()
+//test20()
+test21()
