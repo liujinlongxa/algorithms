@@ -8,7 +8,10 @@
 
 import Foundation
 
-struct Tree {
+
+struct TreeQuestion {
+    
+    /// 反转二叉树
     static func invertTree(_ root: TreeNode?) -> TreeNode? {
         guard root != nil else {
             return nil

@@ -8,7 +8,7 @@
 
 import Foundation
 
-struct Sort {
+struct SortQuestion {
     
     static func test() {
         let arr = [3, 1, 2, 5, 4]

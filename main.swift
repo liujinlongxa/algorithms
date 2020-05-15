@@ -281,7 +281,11 @@ func test20() {
 }
 
 func test21() {
-    Sort.test()
+    SortQuestion.test()
+}
+
+func test22() {
+    ArrayQuestion().test()
 }
 //testTwoSum()
 //testMaxHeap()
@@ -318,3 +322,4 @@ func test21() {
 //test19()
 //test20()
 //test21()
+test22()
