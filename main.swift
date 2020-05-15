@@ -285,7 +285,8 @@ func test21() {
 }
 
 func test22() {
-    ArrayQuestion().test()
+//    ArrayQuestion().test()
+    TreeQuestion().test()
 }
 //testTwoSum()
 //testMaxHeap()

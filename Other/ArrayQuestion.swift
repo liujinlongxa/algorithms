@@ -57,4 +57,11 @@ struct ArrayQuestion {
         }
         return []
     }
+    
+    /// 合并两个有序数组
+    func merge(_ nums1: inout [Int], _ m: Int, _ nums2: [Int], _ n: Int) {
+        nums1.insert(contentsOf: nums2, at: m)
+        nums1 = Array(nums1[0..<(m + n)])
+        nums1.sort()
+    }
 }
