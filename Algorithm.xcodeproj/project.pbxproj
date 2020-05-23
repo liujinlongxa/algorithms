@@ -183,7 +183,7 @@
 		3B0D209C22D633FD00D8A51C = {
 			isa = PBXGroup;
 			children = (
-				3B3B8E03246CCCC400A0A459 /* Other */,
+				3B3B8E03246CCCC400A0A459 /* Leetcode_CN */,
 				3B154395246101FC0002213A /* Leetcode_剑指Offer */,
 				3BC0311E23471DED0024BCB7 /* 剑指Offer */,
 				3B0D20A822D633FD00D8A51C /* main.swift */,
@@ -258,7 +258,7 @@
 			path = "Leetcode_剑指Offer";
 			sourceTree = "<group>";
 		};
-		3B3B8E03246CCCC400A0A459 /* Other */ = {
+		3B3B8E03246CCCC400A0A459 /* Leetcode_CN */ = {
 			isa = PBXGroup;
 			children = (
 				3B3B8E04246CCCEA00A0A459 /* SortQuestion.swift */,
@@ -266,7 +266,7 @@
 				3B3B8E0D246D31F100A0A459 /* TreeQuestion.swift */,
 				3B5ECED9246E891800093363 /* LinkedListQuestion.swift */,
 			);
-			path = Other;
+			path = Leetcode_CN;
 			sourceTree = "<group>";
 		};
 		3BB4111223535F2F009F2A29 /* LinkedList */ = {
