@@ -70,4 +70,52 @@ struct LinkedListQuestion {
         
         return true
     }
+    
+    /// 237. 删除链表中的节点
+    /// https://leetcode-cn.com/problems/delete-node-in-a-linked-list/
+    func deleteNode(_ node: ListNode?) {
+        guard let node = node else { return }
+        
+        if let next = node.next {
+            node.val = next.val
+            node.next = node.next?.next
+        }
+        
+    }
+    
+    /// 面试题24. 反转链表；206. 反转链表
+    /// https://leetcode-cn.com/problems/reverse-linked-list/
+    /// https://leetcode-cn.com/problems/fan-zhuan-lian-biao-lcof/
+    /// 递归方案
+    func reverseList(_ head: ListNode?) -> ListNode? {
+        guard head != nil && head?.next != nil else {
+            return head
+        }
+        
+        let temp = reverseList(head?.next)
+        head?.next?.next = head
+        head?.next = nil
+        return temp
+    }
+    
+    /// 面试题24. 反转链表；206. 反转链表
+    /// https://leetcode-cn.com/problems/reverse-linked-list/
+    /// https://leetcode-cn.com/problems/fan-zhuan-lian-biao-lcof/
+    /// 非递归方案
+    func reverseList2(_ head: ListNode?) -> ListNode? {
+        guard head != nil && head?.next != nil else {
+            return head
+        }
+
+        let dummyHead = ListNode(0)
+        var head = head
+        while head != nil {
+            let temp = head?.next
+            head?.next = dummyHead.next
+            dummyHead.next = head
+            head = temp
+        }
+        
+        return dummyHead.next
+    }
 }
