@@ -10,6 +10,8 @@ import Foundation
 
 struct LinkedListQuestion {
     
+    /// 141. 环形链表
+    /// https://leetcode-cn.com/problems/linked-list-cycle/
     func hasCycle(_ head: ListNode?) -> Bool {
         
         guard head != nil, head?.next != nil else {
@@ -80,7 +82,6 @@ struct LinkedListQuestion {
             node.val = next.val
             node.next = node.next?.next
         }
-        
     }
     
     /// 面试题24. 反转链表；206. 反转链表

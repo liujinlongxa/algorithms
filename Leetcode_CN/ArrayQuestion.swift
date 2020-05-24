@@ -12,7 +12,8 @@ struct ArrayQuestion {
     
     func test() {
 //        print(findDuplicate([2, 3, 4, 1, 2, 5]))
-        print(twoSum([3, 3], 6))
+//        print(twoSum([3, 3], 6))
+        print(isValid2("(([{}]))[]"))
     }
     
     /// How do you find the missing number in a given integer array of 1 to 100?
@@ -63,5 +64,43 @@ struct ArrayQuestion {
         nums1.insert(contentsOf: nums2, at: m)
         nums1 = Array(nums1[0..<(m + n)])
         nums1.sort()
+    }
+    
+    /// 20. 有效的括号
+    /// https://leetcode-cn.com/problems/valid-parentheses/
+    func isValid(_ s: String) -> Bool {
+        let validPair = [
+            ")": "(",
+            "]": "[",
+            "}": "{"
+        ]
+        var stack = [String]()
+        let leftPair = "([{"
+        for c in s {
+            if leftPair.contains(c) {
+                stack.append(String(c))
+            } else {
+                if let last = stack.last, validPair[String(c)] == last {
+                    stack.removeLast()
+                } else {
+                    return false
+                }
+            }
+        }
+        return stack.isEmpty
+    }
+    
+    /// 20. 有效的括号
+    /// https://leetcode-cn.com/problems/valid-parentheses/
+    func isValid2(_ s: String) -> Bool {
+        var s = s
+        while s.contains("()") ||
+            s.contains("[]") ||
+            s.contains("{}") {
+                s = s.replacingOccurrences(of: "[]", with: "")
+                s = s.replacingOccurrences(of: "{}", with: "")
+                s = s.replacingOccurrences(of: "()", with: "")
+        }
+        return s.isEmpty
     }
 }
