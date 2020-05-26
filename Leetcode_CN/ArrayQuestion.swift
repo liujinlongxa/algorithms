@@ -103,4 +103,29 @@ struct ArrayQuestion {
         }
         return s.isEmpty
     }
+    
+    /// 1431. 拥有最多糖果的孩子
+    /// https://leetcode-cn.com/problems/kids-with-the-greatest-number-of-candies/
+    func kidsWithCandies(_ candies: [Int], _ extraCandies: Int) -> [Bool] {
+        let max = candies.max()!
+        var result = [Bool]()
+        for candy in candies {
+            result.append(candy + extraCandies >= max)
+        }
+        return result
+    }
+    
+    /// 1450. 在既定时间做作业的学生人数
+    /// https://leetcode-cn.com/problems/number-of-students-doing-homework-at-a-given-time/
+    func busyStudent(_ startTime: [Int], _ endTime: [Int], _ queryTime: Int) -> Int {
+        
+        let length = startTime.count
+        var result = 0
+        
+        for idx in 0..<length where startTime[idx] <= queryTime && endTime[idx] >= queryTime {
+            result += 1
+        }
+        
+        return result
+    }
 }
