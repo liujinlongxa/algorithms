@@ -59,7 +59,8 @@ struct ArrayQuestion {
         return []
     }
     
-    /// 合并两个有序数组
+    /// 面试题 10.01. 合并排序的数组
+    /// https://leetcode-cn.com/problems/sorted-merge-lcci/
     func merge(_ nums1: inout [Int], _ m: Int, _ nums2: [Int], _ n: Int) {
         nums1.insert(contentsOf: nums2, at: m)
         nums1 = Array(nums1[0..<(m + n)])
@@ -128,4 +129,40 @@ struct ArrayQuestion {
         
         return result
     }
+    
+    /// 26. 删除排序数组中的重复项
+    /// https://leetcode-cn.com/problems/remove-duplicates-from-sorted-array/
+    func removeDuplicates(_ nums: inout [Int]) -> Int {
+        guard nums.count > 0 else {
+            return 0
+        }
+        
+        var realCount = 1
+        var current = nums[0]
+        for index in 1..<nums.count {
+            if current != nums[index] {
+                nums[realCount] = nums[index]
+                realCount += 1
+                current = nums[index]
+            }
+        }
+        return realCount
+    }
+    
+    /// 121. 买卖股票的最佳时机
+    /// https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock/
+    func maxProfit(_ prices: [Int]) -> Int {
+        guard prices.count > 0 else {
+            return 0
+        }
+        
+        var minValue = prices[0]
+        var maxProfit = 0
+        for index in 1..<prices.count {
+            minValue = min(minValue, prices[index])
+            maxProfit = max(maxProfit, prices[index] - minValue)
+        }
+        return maxProfit
+    }
+    
 }
